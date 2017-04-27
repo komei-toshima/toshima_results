@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <a href="https://xiushu53.github.io/result_map_sample/index.html">
+        <img src="https://ga-beacon.appspot.com/UA-65806549-2/xiushu53.github.io/result_map_sample/index.html?pixel" />
+    </a>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7/dist/leaflet.css" />
+    <link rel="stylesheet" href="map_sample.css" />
+    <link rel="stylesheet" href="slide_in.css" />
+
+
+</head>
+
+
+<body>
+    <input type="checkbox" name="toggle" id="toggle" checked=false/>
+
+    <h3>公明党豊島総支部 実績マップ</h3>
+    <div id="map"></div>
+
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://unpkg.com/leaflet@0.7/dist/leaflet.js"></script>
+
+    <script src="map_sample.js"></script>
+
+    <div id="return">
+        <p id="back">
+            << <a href="http://www.komei.or.jp/km/tokyo-nagahashi-keiichi/">長橋けい一ホームページ</a>
+        </p>
+    </div>
+    <div id="button">
+        <input id="current_loc" type="button" value="現在地" onclick="setCenter();" /><br />
+    </div>
+
+    <div class="footer">
+        <p> © 2017 公明党豊島総支部 All rights reserved</p>
+    </div>
+
+</body>
+
+</html>
