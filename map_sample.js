@@ -27,7 +27,7 @@
         document.getElementById("toggle").checked = false;
 
         function removeMarker() {
-                map.removeLayer(marker);
+            map.removeLayer(marker);
         };
 
         function detail(link) {
@@ -36,7 +36,7 @@
             } else {
                 console.log(link.length);
                 //return '</br><a href="' + link + '">詳細</a>';
-                return '</br><a href="'+ link +'" onclick="window.open(this.href); return false;">詳細</a>'
+                return '</br><a id="syousai" href="' + link + '" onclick="window.open(this.href); return false;">詳細</a>'
             };
 
 
